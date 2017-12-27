@@ -1,4 +1,4 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.NumberPicker;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.ruoping.PLAYERNAME";
+    public static final String EXTRA_MESSAGE = "com.app.PLAYERNAME";
     public static final String[] GAME_MODES = {
             GameMode.Classic.toString(),
             GameMode.Rainbow.toString()

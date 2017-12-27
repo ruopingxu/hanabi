@@ -1,10 +1,9 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
-import com.ruoping.hanabi.HanabiCard.Color;
-import android.content.Intent;
+import ruoping.app.hanabi.HanabiCard.Color;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

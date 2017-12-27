@@ -1,4 +1,4 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

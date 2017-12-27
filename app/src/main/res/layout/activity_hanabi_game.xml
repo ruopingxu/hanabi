@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ruoping.hanabi.HanabiGameActivity">
+    tools:context="com.ruoping.hanabi.ruoping.ruoping.hanabi.HanabiGameActivity">
 
     <TextView
         android:id="@+id/playerNameView"
@@ -15,7 +15,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <fragment android:name="com.ruoping.hanabi.CardTableFragment"
+    <fragment android:name="ruoping.app.hanabi.CardTableFragment"
         android:id="@+id/cardTable"
         tools:layout="@layout/activity_show_played_cards"
         android:layout_weight="1"

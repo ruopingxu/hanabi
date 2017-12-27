@@ -1,9 +1,9 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 import java.util.ArrayList;
 
 /**
- * Created by ruoping on 12/26/17.
+ * Created by app on 12/26/17.
  *
  * Structure that contains all the cards in a player's hand.
  */

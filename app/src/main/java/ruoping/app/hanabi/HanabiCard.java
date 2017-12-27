@@ -1,7 +1,7 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 /**
- * Created by ruoping on 12/26/17.
+ * Created by app on 12/26/17.
  */
 
 public class HanabiCard {

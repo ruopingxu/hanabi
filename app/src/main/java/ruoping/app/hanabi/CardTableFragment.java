@@ -1,4 +1,4 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 import android.content.Context;
 import android.net.Uri;
