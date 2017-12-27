@@ -1,9 +1,10 @@
-package ruoping.app.hanabi;
+package com.ruoping.hanabi;
 
-import ruoping.app.hanabi.HanabiCard.Color;
-
+import com.ruoping.hanabi.HanabiCard.Color;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,8 +38,8 @@ public class HanabiGameActivity extends AppCompatActivity {
         deck = shuffleDeck();
 
 
-        setContentView(ruoping.app.hanabi.R.layout.fragment_card_table);
-        setContentView(ruoping.app.hanabi.R.layout.activity_hanabi_game);
+        setContentView(R.layout.fragment_card_table);
+        setContentView(R.layout.activity_hanabi_game);
 //        Intent intent = getIntent();
 //        String playerName = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 //        TextView playerNameView = (TextView) findViewById(R.id.playerNameView);

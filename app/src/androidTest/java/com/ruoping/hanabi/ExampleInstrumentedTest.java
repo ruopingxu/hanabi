@@ -1,4 +1,4 @@
-package ruoping.app.hanabi;
+package com.ruoping.hanabi;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
