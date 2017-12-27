@@ -1,4 +1,4 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(ruoping.app.hanabi.R.layout.activity_main);
 
         // display picker how many players in game
         NumberPicker numberOfPlayersPicker = (NumberPicker) findViewById(R.id.numberOfPlayers);

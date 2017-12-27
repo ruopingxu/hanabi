@@ -1,4 +1,4 @@
-package com.ruoping.hanabi;
+package ruoping.app.hanabi;
 
 /**
  * Created by ruoping on 12/26/17.
