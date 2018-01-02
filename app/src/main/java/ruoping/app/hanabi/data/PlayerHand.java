@@ -1,4 +1,4 @@
-package ruoping.app.hanabi;
+package ruoping.app.hanabi.data;
 
 import java.util.ArrayList;
 
@@ -8,10 +8,10 @@ import java.util.ArrayList;
  * Structure that contains all the cards in a player's hand.
  */
 
-class PlayerHand {
+public class PlayerHand {
     // decides if the user can see the cards.
-    boolean isSelfPlayer;
-    ArrayList<HanabiCard> cards;
+    private boolean isSelfPlayer;
+    private ArrayList<HanabiCard> cards;
 
     public PlayerHand(boolean isSelfPlayer, ArrayList<HanabiCard> startingCards) {
         this.isSelfPlayer = isSelfPlayer;
@@ -29,5 +29,11 @@ class PlayerHand {
         // maybe update lives left
         // maybe update hints left
     }
+
+    public ArrayList<HanabiCard> getCards() {
+        return cards;
+    }
+
+
 
 }
